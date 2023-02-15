@@ -1,0 +1,1 @@
+INSERT INTO code_generator(id, code) values (1, 'a0a0');

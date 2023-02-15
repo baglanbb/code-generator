@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: generator
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/generator
+    password: root
+    username: root
+
+  flyway:
+    enabled: true
